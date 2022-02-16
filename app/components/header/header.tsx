@@ -40,7 +40,7 @@ export function Header(props: HeaderProps) {
   return (
     <View style={[ROOT, style]}>
       {leftIcon ? (
-        <Button preset="link" onPress={onLeftPress}>
+        <Button preset="link" style={{backgroundColor:"#411292",width:"11%",marginTop:-3,height:"27%",justifyContent:'center',alignItems:'center'}} onPress={onLeftPress}>
           <Icon icon={leftIcon} />
         </Button>
       ) : (
